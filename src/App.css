@@ -1,0 +1,101 @@
+.Logo{
+  color: rgb(52, 158, 28);
+    padding-left: 6.5in;
+    background-color: rgb(217, 223, 227);
+    height: 8ch;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    align-items: center;
+}
+.Head{
+  color: rgb(52, 158, 28);
+    text-align: center;
+    background-color: rgb(217, 223, 227);
+    height: 15ch;
+    margin: 1cm 1cm;
+}
+.Head >p{
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5cm;
+}
+.flec-c{
+  display: flex;
+  align-items: center;
+  padding-left: 1in;
+  width: 20cm;
+  height:1cm;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 1cm 1cm;
+  padding-top: 1cm;}
+#google{
+  border: 3px solid whitesmoke;
+  background-color:darkgrey;
+  color:black;
+  min-height: 1cm;
+  min-width: 4cm;
+  margin: 10cm 2cm;
+  text-align: center;
+}
+#bing{
+  border: 3px solid whitesmoke;
+  background-color:darkgrey;
+  color: black;
+  min-height: 1cm;
+  min-width: 3cm;
+  margin: 2cm 2cm;
+  text-align: center;}
+#explorer{
+  border: 3px solid whitesmoke;
+  background-color:darkgrey;
+  color: black;
+  min-height: 1cm;
+  min-width: 3cm;
+  margin: 2cm 2cm;
+  text-align: center;}
+#firefox{
+  border: 3px solid whitesmoke;
+  background-color:darkgrey;
+  color:black;
+  min-height: 1cm;
+  min-width: 3cm;
+  text-align: center;
+  margin: 2cm 2cm;  }
+.test1{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.test1 > div{
+  height: 300px;
+  width: 50%;
+  /* border: 1px solid black */
+}
+.test12, .test13 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  margin: 1cm 1cm;
+}
+.test13{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.test31{
+  height: 500px;
+}
+.test32{
+  height: 1000px ;
+}
+.site{
+  margin: 1cm 1cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  height: 1in;
+}
