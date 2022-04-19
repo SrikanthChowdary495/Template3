@@ -11,15 +11,13 @@ function Section1() {
                 <div id="explorer"><a href="https://www.microsoft.com/en-in/download/internet-explorer.aspx"><h3><b>Explorer</b></h3></a></div>
             </div>
             
-            <div className="test1">
-                <div className="test12">
-                    <div>
+            <div className="about">
+                <div className="abt">
                         About
-                    </div>
                 </div>
-                <div className="test13">
-                    <div className="test31">quick links</div>
-                    <div className="test32">quick links</div>
+                <div className="ql">
+                    <div className="ql1">quick links</div>
+                    <div className="ql2">quick links</div>
                 </div>
             </div>
             <div className="site">site plan and copyright info</div>

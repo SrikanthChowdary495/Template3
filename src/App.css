@@ -12,7 +12,7 @@
     text-align: center;
     background-color: rgb(217, 223, 227);
     height: 15ch;
-    margin: 1cm 1cm;
+    margin: 0cm 1cm;
 }
 .Head >p{
   justify-content: center;
@@ -28,7 +28,7 @@
   align-content: center;
   justify-content: center;
   justify-content: space-between;
-  margin: 1cm 1cm;
+  margin: 0cm 1cm;
   padding-top: 1cm;}
 #google{
   border: 3px solid whitesmoke;
@@ -63,34 +63,47 @@
   min-width: 3cm;
   text-align: center;
   margin: 2cm 2cm;  }
-.test1{
+.about{
   display: flex;
   justify-content: space-between;
   /* border: 1px solid red; */
-}
-.test1 > div{
-  height: 300px;
-  width: 50%;
-  /* border: 1px solid black */
-}
-.test12, .test13 > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: gray;
   margin: 1cm 1cm;
+  text-align: center;
+  
 }
-.test13{
+.abt{
+  height: 300px;
+  width: 48%;
+  /* border: 1px solid blue; */
+  background-color: gray;
+  vertical-align: middle;
+  line-height: 300px;
+}
+.ql{
+  width: 48%;
+  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
 }
-.test31{
-  height: 500px;
+
+.ql1{
+  height: 100px;
+  /* border: 1px solid blue; */
+  background-color: gray;
+  vertical-align: middle;
+  line-height: 100px;
 }
-.test32{
-  height: 1000px ;
+
+.ql2{
+  height: 170px;
+  /* border: 1px solid blue; */
+  background-color: gray;
+  vertical-align: middle;
+  line-height: 170px;
 }
+
 .site{
   margin: 1cm 1cm;
   display: flex;
